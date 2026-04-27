@@ -8,7 +8,7 @@
 html, body {
   height: 100%;
   font-family: Arial, sans-serif;
-  background-color: #e8f5e9; /* verde claro */
+  background-color: #e8f5e9;
 }
 
 /* Organiza a página em coluna */
@@ -17,49 +17,41 @@ body {
   flex-direction: column;
 }
 
-/* Cabeçalho (topo) */
-.topo {
-  background-color: #2e7d32; /* verde escuro */
+.cabeçalho {
+  background-color: #2e7d32;
   color: white;
   text-align: center;
   padding: 20px;
 }
 
-/* Área principal (lado esquerdo + projetos) */
 .layout {
   display: grid;
   grid-template-columns: 250px 1fr; /* coluna do perfil + conteúdo */
   gap: 20px;
   padding: 20px;
-
-  /* faz o conteúdo empurrar o rodapé pra baixo */
   flex: 1;
 }
 
-/* Parte "Sobre" */
-.perfil {
+.sobre {
   background-color: #c8e6c9;
   padding: 15px;
   border-radius: 8px;
 }
 
-/* Parte dos projetos */
-.conteudo {
+.projetos {
   background-color: #c8e6c9;
   padding: 15px;
   border-radius: 8px;
 }
 
-/* Cada projeto */
-.card {
+.margem_projetos {
   background-color: #81c784;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 6px;
 }
 
-/* Rodapé */
-footer {
+.rodape {
   text-align: center;
   padding: 10px;
   background-color: #2e7d32;
